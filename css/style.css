@@ -35,7 +35,7 @@ ul,ol{
 /* variable :defined */
 
 :root{
-    --primary-color:#E62900;
+    --primary-color:#a82c48;
     --secondary-color:#0475AA;
     --white-color:#fff;
     --text-color:#555;
@@ -88,7 +88,7 @@ h1{
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 3rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 h2{
@@ -145,7 +145,7 @@ p{
     background-color: var(--primary-color);
     border: 0.1875rem solid var(--primary-color);
     color: var(--white-color);
-    font-size: 0.9357rem;
+    font-size: 1.1rem;
     font-weight: 600;
     text-transform: capitalize;
     border-radius: 30px;
@@ -159,7 +159,7 @@ p{
 
 .main-btn:hover{
     background-color: transparent;
-    color: var(--primary-color);
+    color: var(--primary-color) ;
     border-color: var(--primary-color);
 }
 
@@ -193,7 +193,9 @@ p{
 }
 
 .nav-link{
-    font-size: 0.9375rem;
+    /* font-size: 0.9375rem; */
+    font-size: 1.5rem;
+    padding: 10px 15px;
     font-weight: 600;
     text-transform: capitalize;
     color: var(--primary-color) !important;
@@ -247,3 +249,69 @@ p{
     color: var(--primary-color);
     border-color: var(--primary-color);
 }
+
+
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title, .card-text {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-color);; 
+  }
+
+  .card-rating {
+    font-size: 1rem;
+    color: #FFD700; 
+  }
+  
+  .card-btn {
+    margin-right: 10px; 
+  }
+  .rating {
+    font-size: 1.2rem;
+  }
+  
+  
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--secondary-color); /* Red color for footer */
+    color: white;
+    /* padding: 20px 0;  */
+    text-align: center;
+  }
+
+.copyright{
+    color: var(--white-color);
+}
+
+  main {
+    flex: 1;
+  }
+  
+  /* .footer {
+    background-color: var(--primary-color) !important; 
+  } */
+  
+  /* footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline; 
+  }
+   */

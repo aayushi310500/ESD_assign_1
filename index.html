@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,172 +9,330 @@
 
 
     <!-- bootsrap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
 
-<!-- font awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<!-- own css -->
-<link rel="stylesheet" href="css/style.css">
-<!-- <link rel="stylesheet" href="/css/"> -->
-
-
+    <!-- own css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="/css/"> -->
 </head>
+
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CART</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PROFILE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">LOGIN</a>
-              </li>
-              <!-- <li class="nav-item">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CART</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROFILE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./signup.html">LOGIN</a>
+                        </li>
+                        <!-- <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li> -->
-            </ul>
-          </div>
-        </div>
-      </nav>
-</header>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-
-<section id="home">
-    <div class="container-fluid px-0 top-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6">
-                    <h1>It's not just a Food It's an Experience!</h1>
-                    <p>The best delicious food that meets your needs, ordder now</p>
-                    <div class="mt-4">
-                        <button class="main-btn">Order Now<i class="fas fa-long-arrow-right ps-3"></i></button>
+    <div>
+        <section id="home">
+            <div class="container-fluid px-0 top-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6">
+                            <h1>It's not just a Food It's an Experience!</h1>
+                            <p>The best delicious food that meets your needs, ordder now</p>
+                            <div class="mt-4">
+                                <button class="main-btn">Order Now<i class="fas fa-long-arrow-right ps-3"></i></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+
+        <div class="">
+            <h3>
+                Order Fresh Food.
+            </h3>
         </div>
+        <section id="cards" class="container-fluid">
+            <!-- <div class="container-fluid"> -->
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/img/img-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="card-title">Sandwitch</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <span class="card-price">$29.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
+                                <div class="card-rating">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="images/img/img-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="card-title">Bao</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <span class="card-price">$29.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
+                                <div class="card-rating">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/img/img-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="card-title">Cheese cake</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <span class="card-price">$29.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
+                                <div class="card-rating">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/img/img-9.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="card-title">Spaghetti</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <span class="card-price">$29.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
+                                <div class="card-rating">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/img/img18.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="card-title">Pancake</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <span class="card-price">$29.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
+                                <div class="card-rating">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/img/img16.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="card-title">Sushi</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <span class="card-price">$29.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
+                                <div class="card-rating">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/img/img12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="card-title">Fruit Salad</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <span class="card-price">$29.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
+                                <div class="card-rating">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/img/img11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="card-title">Taco </h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <span class="card-price">$29.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
+                                <div class="card-rating">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+
+        </section>
+
     </div>
-</section>
 
+    <section id="footer" class="footer container-fluid">
 
-<div class="">
-    <h3>
-        Order Fresh Food.
-    </h3>
-</div>
-
-
-
-
-<section id="cards">
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="images/img/img-3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary card-btn">Add to cart</a>
-            </div>
-          </div>
+        <div class="container-fluid p-0">
+            <footer class="text-center text-white py-3">
+                <div class="text-center">
+                    <p class="mb-0 copyright">
+                        © 2024 Copyright:
+                        <a class="text-light" href="https://mdbootstrap.com/">Made by me:)</a>
+                    </p>
+                </div>
+            </footer>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/img/img-4.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary card-btn">Add to cart</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/img/img-5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary card-btn">Add to cart</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/img/img-9.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary card-btn">Add to cart</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-            <div class="card">
-              <img src="images/img/img-7.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="images/img/img-8.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="images/img/img-9.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="images/img/img-7.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary card-btn">Add to cart</a>
-              </div>
-            </div>
-          </div>
-    </div>
-    
-</section>
 
-
+    </section>
 
 
 
     <!-- js of bootsrap -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
 
 </body>
+
 </html>
